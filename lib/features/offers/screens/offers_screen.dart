@@ -19,7 +19,7 @@ class OffersScreen extends StatelessWidget {
           itemBuilder: (BuildContext context, int index) {
             return Container(
               height: 60,
-              color: Colors.amber,
+              color: const Color(0xFFAE00CC),
               child: Center(child: Text('Item $index')),
             );
           },
